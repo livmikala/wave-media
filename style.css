@@ -1,4 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
 body {
     color: #3B3B3B;
     background-color: #FDF0F1;
+}
+
+.topnav {
+    
+}
+
+.topnav a {
+    text-decoration: none;
+    
 }
