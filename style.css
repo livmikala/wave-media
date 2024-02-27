@@ -35,13 +35,10 @@ a {
 }
 
 
-
 .footertext {
     font-family: "Armata", sans-serif;
     text-align: center;  
 }
-
-
 
 .containerfooter {
     display: flex;
