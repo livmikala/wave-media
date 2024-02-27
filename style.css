@@ -38,3 +38,9 @@ a {
     font-family: "Armata", sans-serif;
     text-align: center;  
 }
+
+.imagefooter {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
