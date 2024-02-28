@@ -137,10 +137,36 @@ h1 {
     flex-direction: column;
 }
 
-.omosside {
+.navnogtitel {
+    color: #5868a2;
     text-align: left;
     margin-left: 20px;
     margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.personligtekst {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 5px;
+    max-width: 400px;
+    font-size: 14px;
+}
+
+.mail {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 11px;
+}
+
+.underskrift {
+    text-align: right;
+    margin-left: 20px;
+    margin-top: 5px;
+    font-family: "audrielle-no1", sans-serif;
+    font-size: 50px;
 }
 
 /*footer styling*/
