@@ -40,6 +40,16 @@ a {
 }
 /*header styling slut*/
 
+/*video*/
+
+video {
+    height: 500px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
 .footertext {
     font-family: "Armata", sans-serif;
     text-align: center;  
