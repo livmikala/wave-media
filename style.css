@@ -66,6 +66,10 @@ h1 {
     margin: 0.2em;
 }
 
+
+
+/*skillebølger*/
+
 .skillebølge {
     height: auto;
     width: 25%;
@@ -76,6 +80,16 @@ h1 {
     display: block;
     margin: 0 auto;
 }
+
+.skillebølge2 {
+    margin-left: 2em;
+}
+
+.skillebølge3 {
+    margin-left: 60em;
+}
+
+
 
 /*footer styling*/
 
