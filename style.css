@@ -82,14 +82,35 @@ h1 {
 }
 
 .skillebølge2 {
-    margin-left: 2em;
+    margin-left: 5em;
 }
 
 .skillebølge3 {
-    margin-left: 60em;
+    margin-left: 45em;
+    margin-bottom: 5em;
 }
 
+.forsidetekst {
+    display: flex;
+    align-items: center;
+    padding-top: 10em;
+}
 
+.casesbillede {
+    height: 20em;
+    width: auto;
+    margin-left: 5em;
+}
+
+.omosbillede {
+    height: 20em;
+    width: auto;
+    margin-right: 5em;
+}
+
+.indextext {
+    width: 40%;
+}
 
 /*footer styling*/
 
