@@ -62,7 +62,19 @@ h1 {
 }
 
 .pilknap {
-    height: 1em;
+    height: 0.8em;
+    margin: 0.2em;
+}
+
+.skillebølge {
+    height: auto;
+    width: 25%;
+    padding: 2em;
+}
+
+.skillebølge1 {
+    display: block;
+    margin: 0 auto;
 }
 
 .footertext {
