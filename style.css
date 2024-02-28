@@ -125,14 +125,24 @@ h1 {
     font-size: 24px; 
 }
 
-.containerteam {
+.container-omos {
     display: flex;
-    align-items: center; 
+    align-items: flex-start;
+    padding-top: 2em;
+    margin: 10px 0;
 }
 
-.omostekst{
-    margin: 10px 0
+.omos-tekst {
+    display: flex;
+    flex-direction: column;
 }
+
+.omosside {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
 /*footer styling*/
 
 .footertext {
