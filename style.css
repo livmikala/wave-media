@@ -29,7 +29,7 @@ header {
 }
 
 .toplogo {
-    height: 100px;
+    height: 10em;
 }
 
 a {
@@ -62,8 +62,57 @@ h1 {
 }
 
 .pilknap {
-    height: 1em;
+    height: 0.8em;
+    margin: 0.2em;
 }
+
+
+
+/*skillebølger*/
+
+.skillebølge {
+    height: auto;
+    width: 25%;
+    padding: 2em;
+}
+
+.skillebølge1 {
+    display: block;
+    margin: 0 auto;
+}
+
+.skillebølge2 {
+    margin-left: 5em;
+}
+
+.skillebølge3 {
+    margin-left: 45em;
+    margin-bottom: 5em;
+}
+
+.forsidetekst {
+    display: flex;
+    align-items: center;
+    padding-top: 10em;
+}
+
+.casesbillede {
+    height: 20em;
+    width: auto;
+    margin-left: 5em;
+}
+
+.omosbillede {
+    height: 20em;
+    width: auto;
+    margin-right: 5em;
+}
+
+.indextext {
+    width: 40%;
+}
+
+/*footer styling*/
 
 .footertext {
     font-family: "Armata", sans-serif;
