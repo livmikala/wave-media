@@ -171,6 +171,32 @@ h1 {
     margin-top: auto;
 }
 
+/*Container / Sanne-ydelser*/
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Justerer afstanden mellem kasserne */
+    gap: 40px;
+  }
+  
+  .box {
+    flex: 1; /* Giver hver boks lige plads */
+    text-align: center; /* Centrerer indholdet */
+  }
+  
+  .box img {
+    width: 100%; /* Billedet fylder bredden af boksen */
+    height: auto; /* Bevarer billedets proportioner */
+  }
+  
+  .box p {
+    margin-top: 10px; /* Afstand mellem billede og tekst */
+  }
+  
+
+
+
+
 /*footer styling*/
 
 .footertext {
