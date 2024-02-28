@@ -119,6 +119,11 @@ h1 {
     height: 200px;
 }
 
+.lillaoverskrift {
+    color: #5868a2;
+    font-size: 24px; 
+}
+
 /*footer styling*/
 
 .footertext {
