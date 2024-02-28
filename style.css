@@ -5,7 +5,9 @@
 body {
     color: #3B3B3B;
     background-color: #FDF0F1;
-    padding: 100px;
+    padding: 80px;
+    width: 70%;
+    margin: 0 auto;
     font-family: "Armata", sans-serif;
 }
 /*header styling*/
@@ -115,14 +117,15 @@ h1 {
 /*om os styling*/
 
 .teambilleder {
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
     margin-right: 20px;
 }
 
 .lillaoverskrift {
     color: #5868a2;
     font-size: 24px; 
+    margin-bottom: 20px;
 }
 
 .container-omos {
@@ -142,7 +145,7 @@ h1 {
     text-align: left;
     margin-left: 20px;
     margin-top: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     font-size: 18px;
 }
 
@@ -151,7 +154,7 @@ h1 {
     margin-left: 20px;
     margin-top: 5px;
     max-width: 400px;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .mail {
@@ -163,10 +166,9 @@ h1 {
 
 .underskrift {
     text-align: right;
-    margin-left: 20px;
-    margin-top: 5px;
     font-family: "audrielle-no1", sans-serif;
-    font-size: 50px;
+    font-size: 40px;
+    margin-top: auto;
 }
 
 /*footer styling*/
@@ -180,5 +182,6 @@ h1 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 40px;
     height: 50px;
 }
