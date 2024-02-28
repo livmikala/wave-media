@@ -5,9 +5,9 @@
 body {
     color: #3B3B3B;
     background-color: #FDF0F1;
-    padding: 50px;
+    padding: 100px;
 }
-
+/*header styling*/
 header {
     display: grid;
     grid-template-columns: 1fr;
@@ -16,10 +16,15 @@ header {
 }
 
 .topnav {
-    height: 100px;
-    display: grid;
-    grid-template-columns: repeat(4, 200px);
-    justify-content: center;
+    height: 100px;   
+}
+
+.topnav a {
+    margin-right: 12em;
+}
+
+.topnav a:last-child {
+    margin-right: 0;
 }
 
 .toplogo {
@@ -33,7 +38,7 @@ a {
     font-weight: 400;
     font-style: normal;
 }
-
+/*header styling slut*/
 
 .footertext {
     font-family: "Armata", sans-serif;
