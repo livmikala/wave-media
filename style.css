@@ -122,6 +122,13 @@ h1 {
     width: 300px;
 }
 
+.lillelillaoverskrift {
+    color: #5868a2; 
+}
+
+.texttilcases {
+    color: rgba(59, 59, 59, 1); 
+}
 
 /*om os styling*/
 
