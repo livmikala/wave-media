@@ -130,6 +130,17 @@ h1 {
     color: rgba(59, 59, 59, 1); 
 }
 
+.cases {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-cases {
+    display: flex;
+    align-items: flex-start;
+    
+}
+
 /*om os styling*/
 
 .teambilleder {
