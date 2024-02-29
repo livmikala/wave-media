@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-body {
+body { /*LAD OS LIGE TJEKKE OP PÅ DEN WIDTH?*/
     color: #3B3B3B;
     background-color: #FDF0F1;
     padding: 80px;
