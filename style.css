@@ -129,6 +129,11 @@ h1 {
 
 /*Cases styling*/
 
+.blågrønoverskrift {
+    color: #30E2ED;
+    font-size: 20px;
+}
+
 .nora {
     margin-top: 60px;
     width: 300px;
@@ -176,11 +181,6 @@ h1 {
     color: #5868a2;
     font-size: 24px; 
     margin-bottom: 20px;
-}
-
-.blågrønoverskrift {
-    color: rgba(39, 191, 212, 1);
-    font-size: 20px;
 }
 
 .container-omos {
