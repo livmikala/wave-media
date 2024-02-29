@@ -2,10 +2,12 @@
     box-sizing: border-box;
     margin: 0;
 }
+
 body {
     color: #3B3B3B;
     background-color: #FDF0F1;
     padding: 80px;
+    padding-top: 2.3em;
     width: 70%;
     margin: 0 auto;
     font-family: "Armata", sans-serif;
@@ -17,23 +19,28 @@ header {
     justify-items: center;
     grid-gap: 10px;
 }
-
+ 
 .topnav {
     height: 100px;   
 }
-
-.topnav a {
-    margin-right: 12em;
+ 
+nav {
+    display: flex;
+    margin-bottom: 2.5em;
 }
-
-.topnav a:last-child {
-    margin-right: 0;
+ 
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    gap: 12em;
 }
-
+ 
+ 
 .toplogo {
-    height: 10em;
+    height: 12em;
 }
-
+ 
 a {
     text-decoration: none;
     color: #3B3B3B;
@@ -41,6 +48,11 @@ a {
     font-weight: 400;
     font-style: normal;
 }
+ 
+ul {
+    list-style-type: none;
+}
+
 /*header styling slut*/
 
 /*video index*/
