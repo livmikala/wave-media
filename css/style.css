@@ -1,0 +1,256 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  color: #3B3B3B;
+  background-color: #FDF0F1;
+  padding: 80px;
+  padding-top: 2.3em;
+  margin: 8em;
+  font-family: "Armata", sans-serif;
+}
+
+/*header styling*/
+header {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  grid-gap: 10px;
+}
+
+.topnav {
+  height: 100px;
+}
+
+nav {
+  display: flex;
+  margin-bottom: 2.5em;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  gap: 12em;
+}
+
+.toplogo {
+  height: 12em;
+}
+
+a {
+  text-decoration: none;
+  color: #3B3B3B;
+  font-family: "Armata", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/*header styling slut*/
+/*video index*/
+video {
+  height: 500px;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  padding: 1em;
+}
+
+.introtext {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.pilknap {
+  height: 0.8em;
+  margin: 0.2em;
+}
+
+/*skillebølger*/
+.skillebølge {
+  height: auto;
+  width: 25%;
+  padding: 2em;
+}
+
+.skillebølge1 {
+  display: block;
+  margin: 0 auto;
+}
+
+.skillebølge2 {
+  margin-left: 5em;
+}
+
+.skillebølge3 {
+  margin-left: 45em;
+  margin-bottom: 5em;
+}
+
+.forsidetekst {
+  display: flex;
+  align-items: center;
+  padding-top: 10em;
+}
+
+.casesbillede {
+  height: 20em;
+  width: auto;
+  margin-left: 5em;
+}
+
+.omosbillede {
+  height: 20em;
+  width: auto;
+  margin-right: 5em;
+}
+
+.indextext {
+  width: 40%;
+}
+
+/*Cases styling*/
+.blågrønoverskrift {
+  color: #30E2ED;
+  font-size: 20px;
+}
+
+.nora {
+  margin-top: 60px;
+  width: 300px;
+}
+
+.lillelillaoverskrift {
+  color: #5868a2;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.texttilcases {
+  color: #3B3B3B;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 5px;
+  max-width: 400px;
+  font-size: 13px;
+}
+
+.cases {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.container-cases {
+  display: flex;
+  align-items: flex-start;
+}
+
+/*om os styling*/
+.teambilleder {
+  width: 220px;
+  height: 220px;
+  margin-right: 20px;
+}
+
+.lillaoverskrift {
+  color: #5868a2;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.container-omos {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 2em;
+  margin: 10px 0;
+}
+
+.omos-tekst {
+  display: flex;
+  flex-direction: column;
+}
+
+.navnogtitel {
+  color: #5868a2;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.personligtekst {
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 5px;
+  max-width: 400px;
+  font-size: 13px;
+}
+
+.mail {
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 5px;
+  font-size: 11px;
+}
+
+.underskrift {
+  text-align: right;
+  font-family: "audrielle-no1", sans-serif;
+  font-size: 40px;
+  margin-top: auto;
+}
+
+.sluttekst {
+  margin-top: 30px;
+}
+
+/*Container / Sanne-ydelser*/
+.container {
+  display: flex;
+  justify-content: space-between; /* Justerer afstanden mellem kasserne */
+  gap: 40px;
+}
+
+.box {
+  flex: 1; /* Giver hver boks lige plads */
+  text-align: center; /* Centrerer indholdet */
+}
+
+.box img {
+  width: 100%; /* Billedet fylder bredden af boksen */
+  height: auto; /* Bevarer billedets proportioner */
+}
+
+.box p {
+  margin-top: 10px; /* Afstand mellem billede og tekst */
+}
+
+/*footer styling*/
+.footertext {
+  font-family: "Armata", sans-serif;
+  text-align: center;
+}
+
+.containerfooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+  height: 50px;
+}/*# sourceMappingURL=style.css.map */
