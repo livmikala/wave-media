@@ -3,6 +3,12 @@ $black: #3B3B3B;
 $lightblue: #30E2ED;
 $purple: #5868a2;
 
+@mixin hover-effect {
+    &:hover {
+    color: $lightblue;
+    }
+}
+
 
 * {
     box-sizing: border-box;
@@ -41,6 +47,7 @@ header {
             font-family: "Armata", sans-serif;
             font-weight: 400;
             font-style: normal;
+            @include hover-effect;
             }
           }
         }
