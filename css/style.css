@@ -20,33 +20,30 @@ header {
   justify-items: center;
   grid-gap: 10px;
 }
-
-.topnav {
-  height: 100px;
-}
-
-nav {
+header nav {
   display: flex;
   margin-bottom: 2.5em;
 }
-
-nav ul {
+header nav ul {
   display: flex;
   list-style-type: none;
   justify-content: space-between;
   gap: 12em;
 }
-
-.toplogo {
-  height: 12em;
-}
-
-a {
+header nav ul a {
   text-decoration: none;
   color: #3B3B3B;
   font-family: "Armata", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.topnav {
+  height: 100px;
+}
+
+.toplogo {
+  height: 12em;
 }
 
 ul {

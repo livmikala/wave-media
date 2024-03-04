@@ -1,11 +1,17 @@
+$lightpink: #FDF0F1;
+$black: #3B3B3B;
+$lightblue: #30E2ED;
+$purple: #5868a2;
+
+
 * {
     box-sizing: border-box;
     margin: 0;
 }
 
 body { 
-    color: #3B3B3B;
-    background-color: #FDF0F1;
+    color: $black;
+    background-color: $lightpink;
     padding: 80px;
     padding-top: 2.3em;
     margin: 8em;
@@ -17,36 +23,42 @@ header {
     grid-template-columns: 1fr;
     justify-items: center;
     grid-gap: 10px;
+    
+       nav {
+       display: flex;
+       margin-bottom: 2.5em;
+    
+          ul {
+          display: flex;
+          list-style-type: none;
+          justify-content: space-between;
+          gap: 12em;
+
+            a {
+            text-decoration: none;
+            color: $black;
+            font-family: "Armata", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            }
+          }
+        }
 }
  
 .topnav {
     height: 100px;   
 }
  
-nav {
-    display: flex;
-    margin-bottom: 2.5em;
-}
+
  
-nav ul {
-    display: flex;
-    list-style-type: none;
-    justify-content: space-between;
-    gap: 12em;
-}
+
  
  
 .toplogo {
     height: 12em;
 }
  
-a {
-    text-decoration: none;
-    color: #3B3B3B;
-    font-family: "Armata", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
+
  
 ul {
     list-style-type: none;
@@ -129,7 +141,7 @@ h1 {
 /*Cases styling*/
 
 .blågrønoverskrift {
-    color: #30E2ED;
+    color: $lightblue;
     font-size: 20px;
 }
 
@@ -139,7 +151,7 @@ h1 {
 }
 
 .lillelillaoverskrift {
-    color: #5868a2;
+    color: $purple;
     text-align: left;
     margin-left: 20px;
     margin-top: 10px;
@@ -148,7 +160,7 @@ h1 {
 }
 
 .texttilcases {
-    color: #3B3B3B; 
+    color: $black; 
     text-align: left;
     margin-left: 20px;
     margin-top: 5px;
@@ -177,7 +189,7 @@ h1 {
 }
 
 .lillaoverskrift {
-    color: #5868a2;
+    color: $purple;
     font-size: 24px; 
     margin-bottom: 20px;
 }
@@ -195,7 +207,7 @@ h1 {
 }
 
 .navnogtitel {
-    color: #5868a2;
+    color: $purple;
     text-align: left;
     margin-left: 20px;
     margin-top: 5px;
