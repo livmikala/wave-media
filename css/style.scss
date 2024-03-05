@@ -1,13 +1,11 @@
-@include variabler;
-@include mix-in;
+@import url(css/_variabler.scss);
+@import url(css/_mix-in.scss);
 
 * {
     box-sizing: border-box;
     margin: 0;
 
 }
-@include variabler;
-@include mix-in;
 
 body {
     color: $black;
@@ -66,7 +64,8 @@ video {
 
 h1 {
     text-align: center;
-    padding: 1em;   
+    padding: 1em;
+    font-size: $text-medium; 
 }
 
 .introtext {
@@ -131,7 +130,6 @@ h1 {
 
 .blagronoverskrift {
     color: $lightblue;
-    font-size: 20px;
     display:flex;
     flex-direction:row; 
     justify-content: space-between;
