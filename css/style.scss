@@ -1,5 +1,5 @@
-@include 'variabler';
-@include 'mix-in';
+@include variabler;
+@include mix-in;
 
 * {
     box-sizing: border-box;
@@ -7,7 +7,7 @@
 
 }
 
-body { 
+body {
     color: $black;
     background-color: $lightpink;
     padding-top: 2.3em;
