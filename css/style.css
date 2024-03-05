@@ -7,7 +7,6 @@
 body {
   color: #3B3B3B;
   background-color: #FDF0F1;
-  padding: 80px;
   padding-top: 2.3em;
   margin: 8em;
   font-family: "Armata", sans-serif;
@@ -29,7 +28,6 @@ header nav ul {
   list-style-type: none;
   justify-content: space-between;
   gap: 12em;
-  list-style-type: none;
 }
 header nav ul a {
   text-decoration: none;
@@ -37,6 +35,7 @@ header nav ul a {
   font-family: "Armata", sans-serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 20px;
 }
 header nav ul a:hover {
   color: #30E2ED;
@@ -62,12 +61,21 @@ video {
 h1 {
   text-align: center;
   padding: 1em;
+  font-size: 36px;
 }
 
 .introtext {
   width: 50%;
   display: block;
   margin: 0 auto;
+  font-size: 18px;
+}
+
+.forsidetekst {
+  display: flex;
+  align-items: center;
+  padding-top: 10em;
+  font-size: 18px;
 }
 
 .pilknap {
@@ -96,12 +104,6 @@ h1 {
   margin-bottom: 5em;
 }
 
-.forsidetekst {
-  display: flex;
-  align-items: center;
-  padding-top: 10em;
-}
-
 .casesbillede {
   height: 20em;
   width: auto;
@@ -119,9 +121,11 @@ h1 {
 }
 
 /*Cases styling*/
-.blågrønoverskrift {
+.blagronoverskrift {
   color: #30E2ED;
-  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .nora {
@@ -155,6 +159,11 @@ h1 {
 .container-cases {
   display: flex;
   align-items: flex-start;
+}
+
+.grafisk-billeder {
+  display: flex;
+  justify-content: space-between;
 }
 
 /*om os styling*/

@@ -1,5 +1,5 @@
-@import url(css/_variabler.scss);
-@import url(css/_mix-in.scss);
+@import 'variabler';
+@import 'mix-in';
 
 * {
     box-sizing: border-box;
@@ -37,6 +37,7 @@ header {
             font-family: "Armata", sans-serif;
             font-weight: 400;
             font-style: normal;
+            font-size: $text-medium;
             @include hover-effect;
             }
           }
@@ -65,13 +66,21 @@ video {
 h1 {
     text-align: center;
     padding: 1em;
-    font-size: $text-medium; 
+    font-size: $text-large; 
 }
 
 .introtext {
     width: 50%;
     display: block;
     margin: 0 auto;
+    font-size: $text-small;
+}
+
+.forsidetekst {
+    display: flex;
+    align-items: center;
+    padding-top: 10em;
+    font-size: $text-small;
 }
 
 .pilknap {
@@ -103,11 +112,6 @@ h1 {
     margin-bottom: 5em;
 }
 
-.forsidetekst {
-    display: flex;
-    align-items: center;
-    padding-top: 10em;
-}
 
 .casesbillede {
     height: 20em;
