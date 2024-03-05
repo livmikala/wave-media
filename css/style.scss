@@ -1,11 +1,15 @@
-@include variabler;
-@include mix-in;
+@include 'variabler';
+@include 'mix-in';
 
 * {
     box-sizing: border-box;
     margin: 0;
 
 }
+@include variabler;
+@include 
+
+
 
 body {
     color: $black;
@@ -30,7 +34,6 @@ header {
           list-style-type: none;
           justify-content: space-between;
           gap: 12em;
-          list-style-type: none;
 
             a {
             text-decoration: none;
