@@ -1,13 +1,11 @@
-@include variabler;
-@include mix-in;
+@import 'variabler';
+@import 'mix-in';
 
 * {
     box-sizing: border-box;
     margin: 0;
 
 }
-@include variabler;
-@include mix-in;
 
 body {
     color: $black;
@@ -16,6 +14,11 @@ body {
     margin: 8em;
     font-family: "Armata", sans-serif;
 }
+
+p {
+    font-size: $text-small;
+}
+
 /*header styling*/
 header {
     display: grid;
@@ -39,6 +42,7 @@ header {
             font-family: "Armata", sans-serif;
             font-weight: 400;
             font-style: normal;
+            font-size: $text-medium;
             @include hover-effect;
             }
           }
@@ -66,7 +70,9 @@ video {
 
 h1 {
     text-align: center;
-    padding: 1em;   
+    padding: 1em;
+    font-size: $text-large;
+    color: $purple; 
 }
 
 .introtext {
@@ -75,11 +81,17 @@ h1 {
     margin: 0 auto;
 }
 
+.forsidetekst {
+    display: flex;
+    align-items: center;
+    padding-top: 10em;
+    font-size: $text-small;
+}
+
 .pilknap {
     height: 0.8em;
     margin: 0.2em;
 }
-
 
 
 /*skillebølger*/
@@ -104,11 +116,6 @@ h1 {
     margin-bottom: 5em;
 }
 
-.forsidetekst {
-    display: flex;
-    align-items: center;
-    padding-top: 10em;
-}
 
 .casesbillede {
     height: 20em;
@@ -131,7 +138,6 @@ h1 {
 
 .blagronoverskrift {
     color: $lightblue;
-    font-size: 20px;
     display:flex;
     flex-direction:row; 
     justify-content: space-between;
@@ -148,6 +154,7 @@ h1 {
     margin-left: 20px;
     margin-top: 10px;
     margin-bottom: 20px;
+    font-size: $text-medium;
 
 }
 
@@ -157,7 +164,7 @@ h1 {
     margin-left: 20px;
     margin-top: 5px;
     max-width: 400px;
-    font-size: 13px; 
+    font-size: $text-small; 
 }
 
 .cases {
@@ -187,7 +194,7 @@ h1 {
 
 .lillaoverskrift {
     color: $purple;
-    font-size: 24px; 
+    font-size: $text-medium; 
     margin-bottom: 20px;
 }
 
@@ -201,6 +208,7 @@ h1 {
 .omos-tekst {
     display: flex;
     flex-direction: column;
+    font-size: $text-medium;
 }
 
 .navnogtitel {
@@ -209,22 +217,21 @@ h1 {
     margin-left: 20px;
     margin-top: 5px;
     margin-bottom: 5px;
-    font-size: 18px;
 }
 
 .personligtekst {
     text-align: left;
     margin-left: 20px;
     margin-top: 5px;
-    max-width: 400px;
-    font-size: 13px;
+    max-width: 70%;
+    font-size: $text-small;
 }
 
 .mail {
     text-align: left;
     margin-left: 20px;
     margin-top: 5px;
-    font-size: 11px;
+    font-size: $text-mini;
 }
 
 .underskrift {
@@ -232,6 +239,7 @@ h1 {
     font-family: "audrielle-no1", sans-serif;
     font-size: 40px;
     margin-top: auto;
+    padding-right: 6em;
 }
 
 .sluttekst {

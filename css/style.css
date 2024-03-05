@@ -7,10 +7,13 @@
 body {
   color: #3B3B3B;
   background-color: #FDF0F1;
-  padding: 80px;
   padding-top: 2.3em;
   margin: 8em;
   font-family: "Armata", sans-serif;
+}
+
+p {
+  font-size: 18px;
 }
 
 /*header styling*/
@@ -29,7 +32,6 @@ header nav ul {
   list-style-type: none;
   justify-content: space-between;
   gap: 12em;
-  list-style-type: none;
 }
 header nav ul a {
   text-decoration: none;
@@ -37,6 +39,7 @@ header nav ul a {
   font-family: "Armata", sans-serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 20px;
 }
 header nav ul a:hover {
   color: #30E2ED;
@@ -62,12 +65,21 @@ video {
 h1 {
   text-align: center;
   padding: 1em;
+  font-size: 36px;
+  color: #5868a2;
 }
 
 .introtext {
   width: 50%;
   display: block;
   margin: 0 auto;
+}
+
+.forsidetekst {
+  display: flex;
+  align-items: center;
+  padding-top: 10em;
+  font-size: 18px;
 }
 
 .pilknap {
@@ -96,12 +108,6 @@ h1 {
   margin-bottom: 5em;
 }
 
-.forsidetekst {
-  display: flex;
-  align-items: center;
-  padding-top: 10em;
-}
-
 .casesbillede {
   height: 20em;
   width: auto;
@@ -119,9 +125,11 @@ h1 {
 }
 
 /*Cases styling*/
-.blågrønoverskrift {
+.blagronoverskrift {
   color: #30E2ED;
-  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .nora {
@@ -135,6 +143,7 @@ h1 {
   margin-left: 20px;
   margin-top: 10px;
   margin-bottom: 20px;
+  font-size: 20px;
 }
 
 .texttilcases {
@@ -143,7 +152,7 @@ h1 {
   margin-left: 20px;
   margin-top: 5px;
   max-width: 400px;
-  font-size: 13px;
+  font-size: 18px;
 }
 
 .cases {
@@ -157,6 +166,11 @@ h1 {
   align-items: flex-start;
 }
 
+.grafisk-billeder {
+  display: flex;
+  justify-content: space-between;
+}
+
 /*om os styling*/
 .teambilleder {
   width: 220px;
@@ -166,7 +180,7 @@ h1 {
 
 .lillaoverskrift {
   color: #5868a2;
-  font-size: 24px;
+  font-size: 20px;
   margin-bottom: 20px;
 }
 
@@ -180,6 +194,7 @@ h1 {
 .omos-tekst {
   display: flex;
   flex-direction: column;
+  font-size: 20px;
 }
 
 .navnogtitel {
@@ -188,22 +203,21 @@ h1 {
   margin-left: 20px;
   margin-top: 5px;
   margin-bottom: 5px;
-  font-size: 18px;
 }
 
 .personligtekst {
   text-align: left;
   margin-left: 20px;
   margin-top: 5px;
-  max-width: 400px;
-  font-size: 13px;
+  max-width: 70%;
+  font-size: 18px;
 }
 
 .mail {
   text-align: left;
   margin-left: 20px;
   margin-top: 5px;
-  font-size: 11px;
+  font-size: 16px;
 }
 
 .underskrift {
@@ -211,6 +225,7 @@ h1 {
   font-family: "audrielle-no1", sans-serif;
   font-size: 40px;
   margin-top: auto;
+  padding-right: 6em;
 }
 
 .sluttekst {
