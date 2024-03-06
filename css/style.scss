@@ -298,8 +298,17 @@ h1 {
 
 // Stilregler for mobil til desktop
 @media (max-width: variabler.$tablet) {
-    header{
+    .forside{
         justify-content: center;
+        padding-bottom: 30em;
+
+    }
+
+
+
+    index.html header{
+        justify-content: center;
+        padding-bottom: 20em;
     }
     nav li{
         display: none;
