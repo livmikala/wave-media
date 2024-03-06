@@ -56,7 +56,8 @@ header {
 }
  
 .toplogo {
-    height: 12em;
+    height: 11em;
+    padding-bottom: 0.5em;
 }
 
 .fa-bars{
@@ -68,9 +69,7 @@ header {
 
 /*video index*/
 
-video {
-    height: 500px;
-    width: auto;
+iframe {
     display: block;
     margin: 0 auto;
 }
