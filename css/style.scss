@@ -7,7 +7,7 @@
 }
 
 body {
-    color: variabler.$black; /* Test - Kan denne note ses i css? */
+    color: variabler.$black; 
     background-color: variabler.$lightpink;
     padding-top: 2.3em;
     margin: 8em;
@@ -18,7 +18,7 @@ p {
     font-size: variabler.$text-small;
 }
 
-/*header styling*/
+/*header styling hej hej*/
 header {
     display: grid;
     grid-template-columns: 1fr;
@@ -196,7 +196,7 @@ h1 {
 
 .lillaoverskrift {
     color: variabler.$purple;
-    font-size: $text-medium; 
+    font-size: variabler.$text-medium; 
     margin-bottom: 20px;
 }
 
@@ -289,6 +289,7 @@ h1 {
     margin-top: 50px;
     height: 50px;
 }
+
 
 @media (min-width: $mobile) {
     // Stilregler for mobil
