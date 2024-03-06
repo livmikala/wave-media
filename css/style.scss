@@ -76,12 +76,16 @@ video {
 }
 
 h1 {
-    text-align: center;
-    padding: 1em;
     font-size: variabler.$text-large;
     color: variabler.$purple; 
+    padding-bottom: 0.5em;
 }
 
+#velkommen {
+    h1 {
+        text-align: center;
+    }
+}
 .introtext {
     width: 50%;
     display: block;

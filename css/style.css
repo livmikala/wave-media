@@ -68,10 +68,13 @@ video {
 }
 
 h1 {
-  text-align: center;
-  padding: 1em;
   font-size: 36px;
   color: #5868a2;
+  padding-bottom: 0.5em;
+}
+
+#velkommen h1 {
+  text-align: center;
 }
 
 .introtext {
