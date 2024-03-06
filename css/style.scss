@@ -6,6 +6,8 @@
     margin: 0;
 }
 
+/* Test - Kan denne note ses i css? */
+
 body {
     color: variabler.$black;
     background-color: variabler.$lightpink;
@@ -136,7 +138,7 @@ h1 {
 /*Cases styling*/
 
 .blagronoverskrift {
-    color: variabler.$lightblue;
+    color: variabler.$lightpink;
     display:flex;
     flex-direction:row; 
     justify-content: space-between;
