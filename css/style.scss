@@ -1,10 +1,9 @@
-@import 'variabler';
-@import 'mix-in';
+@use 'variabler';
+@use 'mix-in';
 
 * {
     box-sizing: border-box;
     margin: 0;
-
 }
 
 body {
@@ -138,8 +137,8 @@ h1 {
 
 .blagronoverskrift {
     color: $lightblue;
-    display: flex;
-    flex-direction: row; 
+    display:flex;
+    flex-direction:row; 
     justify-content: space-between;
     text-decoration: none;
 }
