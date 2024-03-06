@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   box-sizing: border-box;
   margin: 0;
@@ -39,9 +40,6 @@ header nav ul a {
   font-weight: 400;
   font-style: normal;
   font-size: 20px;
-}
-header nav ul a:hover {
-  color: #30E2ED;
 }
 
 .topnav {
@@ -125,10 +123,13 @@ h1 {
 
 /*Cases styling*/
 .blagronoverskrift {
-  color: #30E2ED;
+  color: #FDF0F1;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.blagronoverskrift a {
   text-decoration: none;
 }
 
@@ -176,12 +177,6 @@ h1 {
   width: 220px;
   height: 220px;
   margin-right: 20px;
-}
-
-.lillaoverskrift {
-  color: #5868a2;
-  font-size: 20px;
-  margin-bottom: 20px;
 }
 
 .container-omos {

@@ -42,7 +42,6 @@ header {
             font-weight: 400;
             font-style: normal;
             font-size: variabler.$text-medium;
-            @include mixin.hover-effect;
             }
           }
         }        
@@ -284,18 +283,18 @@ h1 {
     height: 50px;
 }
 
-@media (min-width: $mobile) {
+@media (min-width: variabler.$mobile) {
     // Stilregler for mobil
   }
   
-@media (min-width: $tablet) {
+@media (min-width: variabler.$tablet) {
     // Stilregler for tablet
   }
   
-@media (min-width: $desktop) {
+@media (min-width: variabler.$desktop) {
     // Stilregler for desktop
   }
   
-@media (min-width: $largeDesktop) {
+@media (min-width: variabler.$largeDesktop) {
     // Stilregler for stor skærm
   }
