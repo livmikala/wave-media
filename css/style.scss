@@ -303,9 +303,22 @@ h1 {
     }
     nav li{
         display: none;
+    
     }
     
+    .video{
+        display: flex;
+        flex: content;
+        justify-content: center;
+        
+    }
+    iframe {
+        display: block;
+        margin: 0 auto;
+
+    }
     
+
 
   }
   
