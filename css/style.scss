@@ -1,5 +1,5 @@
 @use 'variabler';
-@use 'mix-in';
+@use 'mixin';
 
 * {
     box-sizing: border-box;
@@ -42,7 +42,7 @@ header {
             font-weight: 400;
             font-style: normal;
             font-size: variabler.$text-medium;
-            @include mix-in.hover-effekt;
+            @include mixin.hover-effect;
             }
           }
         }        
