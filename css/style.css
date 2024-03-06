@@ -41,6 +41,9 @@ header nav ul a {
   font-style: normal;
   font-size: 20px;
 }
+header nav ul a:hover {
+  color: #30E2ED;
+}
 
 .topnav {
   height: 100px;
