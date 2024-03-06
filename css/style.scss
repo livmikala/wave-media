@@ -1,5 +1,5 @@
-@import 'variabler';
-@import 'mix-in';
+@use 'variabler';
+@use 'mix-in';
 
 * {
     box-sizing: border-box;
