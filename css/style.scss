@@ -33,7 +33,7 @@ header {
           display: flex;
           list-style-type: none;
           justify-content: space-between;
-          gap: 12em;
+          gap: 10em;
 
             a {
             text-decoration: none;
@@ -308,8 +308,19 @@ h1 {
   
 
   
-@media (min-width: variabler.$desktop) {
-    // Stilregler for desktop
+@media (min-width: variabler.$tablet) {
+    header{
+        justify-content: center;
+    }
+    nav ul{
+        display:flex;
+        justify-items: center;
+        justify-content: space-between;
+        gap:12em;
+    }
+    .fa-bars{
+        display:none;
+    }
   }
   
 @media (min-width: variabler.$largeDesktop) {
