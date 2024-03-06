@@ -53,6 +53,11 @@ header nav ul a:hover {
   height: 12em;
 }
 
+.fa-bars {
+  font-size: 3em;
+  color: #30E2ED;
+}
+
 /*header styling slut*/
 /*video index*/
 video {
