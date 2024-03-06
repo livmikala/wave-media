@@ -77,15 +77,10 @@ video {
 
 h1 {
     font-size: variabler.$text-large;
-    color: variabler.$purple; 
+    color: variabler.$purple;
     padding-bottom: 0.5em;
 }
 
-#velkommen {
-    h1 {
-        text-align: center;
-    }
-}
 .introtext {
     width: 50%;
     display: block;
