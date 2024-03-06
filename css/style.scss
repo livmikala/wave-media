@@ -287,13 +287,21 @@ h1 {
     height: 50px;
 }
 
-@media (min-width: variabler.$mobile) {
-    // Stilregler for mobil
+
+// Stilregler for mobil til desktop
+@media (max-width: variabler.$tablet) {
+    header{
+        justify-content: center;
+    }
+    nav li{
+        display: none;
+    }
+    
+    
+
   }
   
-@media (min-width: variabler.$tablet) {
-    // Stilregler for tablet
-  }
+
   
 @media (min-width: variabler.$desktop) {
     // Stilregler for desktop

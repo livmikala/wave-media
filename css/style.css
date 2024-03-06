@@ -263,4 +263,13 @@ h1 {
   justify-content: space-between;
   margin-top: 50px;
   height: 50px;
+}
+
+@media (max-width: 768px) {
+  header {
+    justify-content: center;
+  }
+  nav li {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
