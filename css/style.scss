@@ -139,8 +139,8 @@ h1 {
 
 .blagronoverskrift {
     color: variabler.$lightpink;
-    display:flex;
-    flex-direction:row; 
+    display: flex;
+    flex-direction: row; 
     justify-content: space-between;
 }
 
@@ -296,14 +296,14 @@ h1 {
     // Stilregler for mobil
   }
   
-  @media (min-width: $tablet) {
+@media (min-width: $tablet) {
     // Stilregler for tablet
   }
   
-  @media (min-width: $desktop) {
+@media (min-width: $desktop) {
     // Stilregler for desktop
   }
   
-  @media (min-width: $largeDesktop) {
+@media (min-width: $largeDesktop) {
     // Stilregler for stor skærm
   }
