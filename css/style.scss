@@ -135,10 +135,10 @@ h1 {
 
 /*Cases styling*/
 
-.blagronoverskrift {
-    color: variabler.$lightblue;
-    display:flex;
-    flex-direction:row; 
+.blagronoverskrift a { 
+    color: variabler.$lightpink;
+    display: flex;
+    flex-direction: row; 
     justify-content: space-between;
     text-decoration: none;
 }
