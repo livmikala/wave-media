@@ -7,15 +7,15 @@
 }
 
 body {
-    color: $black;
-    background-color: $lightpink;
+    color: variabler.$black;
+    background-color: variabler.$lightpink;
     padding-top: 2.3em;
     margin: 8em;
     font-family: "Armata", sans-serif;
 }
 
 p {
-    font-size: $text-small;
+    font-size: variabler.$text-small;
 }
 
 /*header styling*/
@@ -37,11 +37,11 @@ header {
 
             a {
             text-decoration: none;
-            color: $black;
+            color: variabler.$black;
             font-family: "Armata", sans-serif;
             font-weight: 400;
             font-style: normal;
-            font-size: $text-medium;
+            font-size: variabler.$text-medium;
             @include mix-in.hover-effekt;
             }
           }
@@ -70,8 +70,8 @@ video {
 h1 {
     text-align: center;
     padding: 1em;
-    font-size: $text-large;
-    color: $purple; 
+    font-size: variabler.$text-large;
+    color: variabler.$purple; 
 }
 
 .introtext {
@@ -84,7 +84,7 @@ h1 {
     display: flex;
     align-items: center;
     padding-top: 10em;
-    font-size: $text-small;
+    font-size: variabler.$text-small;
 }
 
 .pilknap {
@@ -179,7 +179,7 @@ h1 {
 }
 
 .grafisk-billeder {
-    display:flex;
+    display: flex;
     justify-content: space-between; 
 }
 
@@ -207,11 +207,11 @@ h1 {
 .omos-tekst {
     display: flex;
     flex-direction: column;
-    font-size: $text-medium;
+    font-size: variabler.$text-medium;
 }
 
 .navnogtitel {
-    color: $purple;
+    color: variabler.$purple;
     text-align: left;
     margin-left: 20px;
     margin-top: 5px;
@@ -223,20 +223,20 @@ h1 {
     margin-left: 20px;
     margin-top: 5px;
     max-width: 70%;
-    font-size: $text-small;
+    font-size: variabler.$text-small;
 }
 
 .mail {
     text-align: left;
     margin-left: 20px;
     margin-top: 5px;
-    font-size: $text-mini;
+    font-size: variabler.$text-mini;
 }
 
 .underskrift {
     text-align: right;
     font-family: "audrielle-no1", sans-serif;
-    font-size: $text-autograph;
+    font-size: variabler.$text-autograph;
     margin-top: auto;
     padding-right: 6em;
 }
