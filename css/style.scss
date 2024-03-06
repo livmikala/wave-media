@@ -42,7 +42,7 @@ header {
             font-weight: 400;
             font-style: normal;
             font-size: $text-medium;
-            @include hover-effect;
+            @include mix-in.hover-effekt;
             }
           }
         }        
@@ -136,7 +136,7 @@ h1 {
 /*Cases styling*/
 
 .blagronoverskrift {
-    color: $lightblue;
+    color: variabler.$lightblue;
     display:flex;
     flex-direction:row; 
     justify-content: space-between;
@@ -149,22 +149,21 @@ h1 {
 }
 
 .lillelillaoverskrift {
-    color: $purple;
+    color: variabler.$purple;
     text-align: left;
     margin-left: 20px;
     margin-top: 10px;
     margin-bottom: 20px;
-    font-size: $text-medium;
-
+    font-size: variabler.$text-medium;
 }
 
 .texttilcases {
-    color: $black; 
+    color: variabler.$black; 
     text-align: left;
     margin-left: 20px;
     margin-top: 5px;
     max-width: 400px;
-    font-size: $text-small; 
+    font-size: variabler.$text-small; 
 }
 
 .cases {
@@ -193,7 +192,7 @@ h1 {
 }
 
 .lillaoverskrift {
-    color: $purple;
+    color: variabler.$purple;
     font-size: $text-medium; 
     margin-bottom: 20px;
 }
