@@ -139,7 +139,6 @@ h1 {
 /*Cases styling*/
 
 .blagronoverskrift {
-    color: variabler.$lightpink;
     display: flex;
     flex-direction: row; 
     justify-content: space-between;
@@ -147,6 +146,7 @@ h1 {
 
 .blagronoverskrift a {
     text-decoration: none;
+    color: variabler.$lightblue;
 }
 
 .nora {
