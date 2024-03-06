@@ -13,15 +13,11 @@ body {
     margin: 8em;
     font-family: "Armata", sans-serif;
 }
-<<<<<<< HEAD
-
-=======
 
 p {
     font-size: variabler.$text-small;
 }
 
->>>>>>> 900707f3c13d71a6636f423b4c81524c7f806f80
 /*header styling*/
 header {
     display: grid;
@@ -196,6 +192,7 @@ h1 {
 .grafisk-billeder {
     display: flex;
     justify-content: space-between; 
+    margin-top: 50px;
 }
 
 /*om os styling*/
