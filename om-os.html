@@ -16,15 +16,21 @@
 </head>
 <body>
 <!--Header kopieres til alle sider-->    
-<header><a href="index.html"><img class="toplogo" src="img/logo.png" alt="wave media logo"></a>
-        <nav>
+<header class="forside">
+    
+    <a href="index.html">
+        <img class="toplogo" src="img/logo1.png" alt="wave media logo">
+    </a>
+        <i class="fas fa-bars dropbtn"></i>
+          <nav>
             <ul>
-                <li><a href="index.html">FORSIDE</a></li>
-                <li><a href="cases.html">CASES</a></li>
-                <li><a href="om-os.html">OM OS</a></li>
-                <li><a href="ydelser.html">YDELSER</a></li>
+              <li><a href="index.html">FORSIDE</a></li>
+              <li><a href="cases.html">CASES</a></li>
+              <li><a href="om-os.html">OM OS</a></li>
+              <li><a href="ydelser.html">YDELSER</a></li>
             </ul>
-        </nav>
+          </nav>
+    
 </header>
 <!--Header slut her-->
 <!--Om os indhold START-->
@@ -93,5 +99,13 @@
 
     </div>
 </footer>
+<script>
+    function toggleNav() {
+        var navbar = document.querySelector('nav');
+        navbar.classList.toggle('show-nav');
+    }
+
+    document.querySelector('.dropbtn').addEventListener('click', toggleNav);
+</script>
 </body>
 </html>
