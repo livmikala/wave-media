@@ -287,8 +287,9 @@ nav li {
   display: none;
 }
 
-.forside-box {
+.container {
   flex-direction: column;
+  flex-wrap: 1;
 }
 
 .video {
