@@ -99,25 +99,18 @@ h1 {
     margin: 0.2em;
 }
 
-.forsidetekst {
-    display: flex;
-    flex-direction: column;
-    font-size: variabler.$text-small;
-    flex:1;
-}
 
-.container {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
+
+.forside-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
     justify-content: space-between;
     gap: 20px; // Tilføj en passende mellemrum mellem de to kolonner
     font-size: variabler.$text-small;
 }
 
-.column{
-    flex:1;
-}
+
 
 
 /*skillebølger*/
@@ -131,26 +124,35 @@ h1 {
 .skillebølge1 {
     display: block;
     margin: 0 auto;
+    @media (max-width:variabler.$tablet){
+        margin: 0 auto;
+    }
 }
 
 .skillebølge2 {
     margin-left: 5em;
+    @media (max-width:variabler.$tablet){
+        margin: 0 auto;
+    }
 }
 
 .skillebølge3 {
     margin-left: 45em;
     margin-bottom: 5em;
+
+    @media (max-width:variabler.$tablet){
+        margin: 0 auto;
+    }
 }
 
 
 .casesbillede {
-    height: 20em;
+    height: 4em;
     width: auto;
-    margin-left: 5em;
 }
 
 .omosbillede {
-    height: 20em;
+    height: 4em;
     width: auto;
     margin-right: 5em;
 }
@@ -320,9 +322,10 @@ h1 {
     
     }
     
-    .container{
+    .forside-tekst{
+        display: flex;
         flex-direction: column;
-        flex-wrap: 1;
+        
     }
 
     .video{
@@ -365,6 +368,11 @@ h1 {
         display:none;
     }
 
+    .forside-tekst{
+        display: flex;
+        flex-direction: column;
+        
+    }
 
     }
   

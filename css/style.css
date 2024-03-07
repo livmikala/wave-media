@@ -89,24 +89,13 @@ h1 {
   margin: 0.2em;
 }
 
-.forsidetekst {
-  display: flex;
-  flex-direction: column;
-  font-size: 18px;
-  flex: 1;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
+.forside-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
   justify-content: space-between;
   gap: 20px;
   font-size: 18px;
-}
-
-.column {
-  flex: 1;
 }
 
 /*skillebølger*/
@@ -120,24 +109,38 @@ h1 {
   display: block;
   margin: 0 auto;
 }
+@media (max-width: 890px) {
+  .skillebølge1 {
+    margin: 0 auto;
+  }
+}
 
 .skillebølge2 {
   margin-left: 5em;
+}
+@media (max-width: 890px) {
+  .skillebølge2 {
+    margin: 0 auto;
+  }
 }
 
 .skillebølge3 {
   margin-left: 45em;
   margin-bottom: 5em;
 }
+@media (max-width: 890px) {
+  .skillebølge3 {
+    margin: 0 auto;
+  }
+}
 
 .casesbillede {
-  height: 20em;
+  height: 4em;
   width: auto;
-  margin-left: 5em;
 }
 
 .omosbillede {
-  height: 20em;
+  height: 4em;
   width: auto;
   margin-right: 5em;
 }
@@ -287,9 +290,9 @@ nav li {
   display: none;
 }
 
-.container {
+.forside-tekst {
+  display: flex;
   flex-direction: column;
-  flex-wrap: 1;
 }
 
 .video {
@@ -326,5 +329,9 @@ iframe {
   }
   .fa-bars {
     display: none;
+  }
+  .forside-tekst {
+    display: flex;
+    flex-direction: column;
   }
 }/*# sourceMappingURL=style.css.map */
