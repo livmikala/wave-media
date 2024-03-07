@@ -63,6 +63,7 @@ header {
 .fa-bars{
     font-size: 3em;
     color: variabler.$green;
+    margin-right: 2px;
 }
 
 /*header styling slut*/
@@ -346,8 +347,9 @@ h1 {
     
   
 @media (min-width: variabler.$tablet) {
-    header{
-        justify-content: center;
+    header.forside {
+        display: grid;
+        justify-items: center;
     }
 
     .forside-container{
@@ -372,8 +374,3 @@ h1 {
     }
 
     }
-  
-  
-@media (min-width: variabler.$largeDesktop) {
-    // Stilregler for stor skærm
-  }
