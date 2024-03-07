@@ -350,6 +350,19 @@ h1 {
     display: grid;
     grid-area: 5fr;
   }
+  .container-omos {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px 0;
+  }
+  .teambilleder {
+    width: 220px;
+    height: 220px;
+    margin-right: 20px;
+  }
+  .omos-tekst {
+    flex: 1;
+  }
   .grafisk-billeder {
     display: flex;
     flex-direction: row;
