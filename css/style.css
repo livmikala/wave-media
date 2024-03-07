@@ -11,12 +11,6 @@ body {
   margin: 8em;
   font-family: "Armata", sans-serif;
 }
-@media (max-width: 890px) {
-  body {
-    padding-top: 0.5em;
-    margin: 2em;
-  }
-}
 
 p {
   font-size: 18px;
@@ -71,13 +65,8 @@ iframe {
   display: block;
   margin: 0 auto;
 }
-@media (max-width: 890px) {
-  iframe {
-    height: 10em;
-    width: auto;
-  }
-}
 
+/*video slut*/
 h1 {
   font-size: 36px;
   color: #5868a2;
@@ -90,28 +79,9 @@ h1 {
 }
 
 .introtext {
-  width: 50%;
   display: block;
-  margin: 0 auto;
-}
-@media (max-width: 890px) {
-  .introtext {
-    width: 80%;
-  }
-}
-
-.forsidetekst {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding-top: 10em;
-  font-size: 18px;
-}
-@media (max-width: 890px) {
-  .forsidetekst {
-    display: flex;
-    flex-direction: column;
-  }
+  margin: 0 0;
+  gap: 10px;
 }
 
 .pilknap {
@@ -119,7 +89,6 @@ h1 {
   margin: 0.2em;
 }
 
-<<<<<<< HEAD
 .forside-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -133,8 +102,6 @@ h1 {
   grid-column: auto; /* Lad browseren bestemme kolonneplaceringen */
 }
 
-=======
->>>>>>> 97f0bc988c4bb8d1486a886feac4186d561df7b7
 /*skillebølger*/
 .skillebølge {
   height: auto;
@@ -148,8 +115,7 @@ h1 {
 }
 @media (max-width: 890px) {
   .skillebølge1 {
-    display: flex;
-    justify-items: center;
+    margin: 0 auto;
   }
 }
 
@@ -158,8 +124,7 @@ h1 {
 }
 @media (max-width: 890px) {
   .skillebølge2 {
-    display: flex;
-    justify-items: center;
+    margin: 0 auto;
   }
 }
 
@@ -173,37 +138,16 @@ h1 {
   }
 }
 
-<<<<<<< HEAD
+.casesbillede {
+  display: block;
+  height: 10em;
+  width: 1fr;
+}
+
 .omosbillede {
   display: flex;
   height: 4em;
-=======
-.casesbillede {
-  height: 20em;
   width: auto;
-  margin-left: 5em;
-}
-@media (max-width: 890px) {
-  .casesbillede {
-    height: 10em;
-    width: auto;
-  }
-}
-
-.omosbillede {
-  height: 20em;
->>>>>>> 97f0bc988c4bb8d1486a886feac4186d561df7b7
-  width: auto;
-}
-@media (max-width: 890px) {
-  .omosbillede {
-    height: 10em;
-    width: auto;
-  }
-}
-
-.indextext {
-  width: 40%;
 }
 
 /*Cases styling*/
@@ -314,12 +258,6 @@ h1 {
 }
 
 /*Container / Sanne-ydelser*/
-.container {
-  display: flex;
-  justify-content: space-between; /* Justerer afstanden mellem kasserne */
-  gap: 40px;
-}
-
 .box {
   flex: 1; /* Giver hver boks lige plads */
   text-align: center; /* Centrerer indholdet */
@@ -349,16 +287,17 @@ h1 {
 }
 
 @media (max-width: 890px) {
-  header {
+  .forside {
     justify-content: center;
   }
-  nav li {
-    display: none;
-  }
 }
-<<<<<<< HEAD
 nav li {
   display: none;
+}
+
+.forside-tekst {
+  display: flex;
+  flex-direction: column;
 }
 
 .video {
@@ -383,13 +322,11 @@ iframe {
   white-space: nowrap;
 }
 
-=======
->>>>>>> 97f0bc988c4bb8d1486a886feac4186d561df7b7
 @media (min-width: 890px) {
   header {
     justify-content: center;
   }
-  nav ul {
+  nav li {
     display: flex;
     justify-items: center;
     justify-content: space-between;
@@ -398,11 +335,8 @@ iframe {
   .fa-bars {
     display: none;
   }
-<<<<<<< HEAD
   .forside-tekst {
     display: grid;
     grid-area: 5fr;
   }
-=======
->>>>>>> 97f0bc988c4bb8d1486a886feac4186d561df7b7
 }/*# sourceMappingURL=style.css.map */
