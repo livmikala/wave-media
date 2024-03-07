@@ -303,23 +303,34 @@ h1 {
 // Stilregler for mobil til desktop
 @media (max-width: variabler.$tablet) {
     
-    .forside{
+    body {
+    
+            color: variabler.$black; 
+            background-color: variabler.$lightpink;
+            padding-top: 1em;
+            margin: 4em;
+            font-family: "Armata", sans-serif;
+    
+
+    }
+    
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .forside {
         justify-content: center;
     }
 
     }
-    nav li{
+    nav li {
         display: none;
-    
     }
 
-    .body{
-        justify-content: center;
-    }
-
-
-    
-    .forside-container{
+    .forside-container {
         grid-template-columns: 1fr;
 
     }
@@ -333,7 +344,6 @@ h1 {
     iframe {
         display: block;
         margin: 0 auto;
-
     }
 
     .containerfooter{

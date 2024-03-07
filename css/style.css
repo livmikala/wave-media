@@ -57,6 +57,7 @@ header nav ul a:hover {
 .fa-bars {
   font-size: 3em;
   color: #027070;
+  margin-right: 2px;
 }
 
 /*header styling slut*/
@@ -275,16 +276,25 @@ h1 {
 }
 
 @media (max-width: 890px) {
+  body {
+    color: #3B3B3B;
+    background-color: #FDF0F1;
+    padding-top: 1em;
+    margin: 4em;
+    font-family: "Armata", sans-serif;
+  }
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
   .forside {
     justify-content: center;
   }
 }
 nav li {
   display: none;
-}
-
-.body {
-  justify-content: center;
 }
 
 .forside-container {
@@ -311,8 +321,9 @@ iframe {
 }
 
 @media (min-width: 890px) {
-  header {
-    justify-content: center;
+  header.forside {
+    display: grid;
+    justify-items: center;
   }
   .forside-container {
     grid-template-columns: 1fr 1fr;
