@@ -66,6 +66,7 @@ iframe {
   margin: 0 auto;
 }
 
+/*video slut*/
 h1 {
   font-size: 36px;
   color: #5868a2;
@@ -80,18 +81,32 @@ h1 {
 .introtext {
   display: block;
   margin: 0 0;
-}
-
-.forsidetekst {
-  display: flex;
-  align-items: center;
-  padding-top: 10em;
-  font-size: 18px;
+  gap: 10px;
 }
 
 .pilknap {
   height: 0.8em;
   margin: 0.2em;
+}
+
+.forsidetekst {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  flex: 1;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 18px;
+}
+
+.column {
+  flex: 1;
 }
 
 /*skillebølger*/
@@ -125,10 +140,6 @@ h1 {
   height: 20em;
   width: auto;
   margin-right: 5em;
-}
-
-.indextext {
-  width: 40%;
 }
 
 /*Cases styling*/
@@ -239,12 +250,6 @@ h1 {
 }
 
 /*Container / Sanne-ydelser*/
-.container {
-  display: flex;
-  justify-content: space-between; /* Justerer afstanden mellem kasserne */
-  gap: 40px;
-}
-
 .box {
   flex: 1; /* Giver hver boks lige plads */
   text-align: center; /* Centrerer indholdet */
@@ -274,22 +279,29 @@ h1 {
 }
 
 @media (max-width: 890px) {
-  header {
+  .forside {
     justify-content: center;
-  }
-  nav li {
-    display: none;
-  }
-  .video {
-    display: flex;
-    flex: content;
-    justify-content: center;
-  }
-  iframe {
-    display: block;
-    margin: 0 auto;
   }
 }
+nav li {
+  display: none;
+}
+
+.forside-box {
+  flex-direction: column;
+}
+
+.video {
+  display: flex;
+  flex: content;
+  justify-content: center;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+
 @media (min-width: 890px) {
   header {
     justify-content: center;

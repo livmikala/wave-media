@@ -74,6 +74,8 @@ iframe {
     margin: 0 auto;
 }
 
+/*video slut*/
+
 h1 {
     font-size: variabler.$text-large;
     color: variabler.$purple;
@@ -92,23 +94,29 @@ h1 {
     gap: 10px;
 }
 
-.forsidetekst {
-    display: flex;
-    align-items: center;
-    padding-top: 10em;
-    font-size: variabler.$text-small;
-}
-
-.profil-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: space-between;
-    
-}
-
 .pilknap {
     height: 0.8em;
     margin: 0.2em;
+}
+
+.forsidetekst {
+    display: flex;
+    flex-direction: column;
+    font-size: variabler.$text-small;
+    flex:1;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+    gap: 20px; // Tilføj en passende mellemrum mellem de to kolonner
+    font-size: variabler.$text-small;
+}
+
+.column{
+    flex:1;
 }
 
 
@@ -147,9 +155,8 @@ h1 {
     margin-right: 5em;
 }
 
-.indextext {
-    width: 40%;
-}
+
+
 
 
 /*Cases styling*/
@@ -264,11 +271,8 @@ h1 {
 
 /*Container / Sanne-ydelser*/
 
-.container {
-    display: flex;
-    justify-content: space-between; /* Justerer afstanden mellem kasserne */
-    gap: 40px;
-  }
+
+  
   
   .box {
     flex: 1; /* Giver hver boks lige plads */
@@ -283,11 +287,8 @@ h1 {
   .box p {
     margin-top: 10px; /* Afstand mellem billede og tekst */
   }
+
   
-  .profil-container[
-  ]
-
-
 
 
 /*footer styling*/
@@ -308,19 +309,20 @@ h1 {
 
 // Stilregler for mobil til desktop
 @media (max-width: variabler.$tablet) {
+    
     .forside{
         justify-content: center;
     }
 
-    index.html header{
-        justify-content: center;
-        padding-bottom: 20em;
     }
     nav li{
         display: none;
     
     }
     
+    .forside-box{
+        flex-direction: column;
+    }
 
     .video{
         display: flex;
@@ -334,11 +336,6 @@ h1 {
 
     }
     
-
-
-  }
-  
-
   
 @media (min-width: variabler.$tablet) {
     header{
@@ -353,13 +350,10 @@ h1 {
     .fa-bars{
         display:none;
     }
-    .introtext img{
-        justify-content: center;
-     
 
 
     }
-  }
+  
   
 @media (min-width: variabler.$largeDesktop) {
     // Stilregler for stor skærm
