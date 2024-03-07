@@ -111,6 +111,10 @@ h1 {
 }
 
 
+.column {
+    grid-column: auto; /* Lad browseren bestemme kolonneplaceringen */
+}
+
 
 
 /*skillebølger*/
@@ -146,15 +150,12 @@ h1 {
 }
 
 
-.casesbillede {
-    height: 4em;
-    width: auto;
-}
+
 
 .omosbillede {
+    display: flex;
     height: 4em;
     width: auto;
-    margin-right: 5em;
 }
 
 
@@ -322,11 +323,7 @@ h1 {
     
     }
     
-    .forside-tekst{
-        display: flex;
-        flex-direction: column;
-        
-    }
+
 
     .video{
         display: flex;
@@ -369,8 +366,8 @@ h1 {
     }
 
     .forside-tekst{
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-area: 5fr;
         
     }
 

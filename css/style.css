@@ -98,6 +98,10 @@ h1 {
   font-size: 18px;
 }
 
+.column {
+  grid-column: auto; /* Lad browseren bestemme kolonneplaceringen */
+}
+
 /*skillebølger*/
 .skillebølge {
   height: auto;
@@ -134,15 +138,10 @@ h1 {
   }
 }
 
-.casesbillede {
-  height: 4em;
-  width: auto;
-}
-
 .omosbillede {
+  display: flex;
   height: 4em;
   width: auto;
-  margin-right: 5em;
 }
 
 /*Cases styling*/
@@ -290,11 +289,6 @@ nav li {
   display: none;
 }
 
-.forside-tekst {
-  display: flex;
-  flex-direction: column;
-}
-
 .video {
   display: flex;
   flex: content;
@@ -331,7 +325,7 @@ iframe {
     display: none;
   }
   .forside-tekst {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-area: 5fr;
   }
 }/*# sourceMappingURL=style.css.map */
