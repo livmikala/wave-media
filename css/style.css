@@ -198,7 +198,7 @@ h1 {
 
 .grafisk-billeder {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   margin-top: 50px;
 }
 
@@ -349,5 +349,11 @@ h1 {
   .forside-tekst {
     display: grid;
     grid-area: 5fr;
+  }
+  .grafisk-billeder {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
   }
 }/*# sourceMappingURL=style.css.map */
