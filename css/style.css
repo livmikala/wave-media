@@ -112,6 +112,12 @@ h1 {
   height: auto;
   width: 25%;
   padding: 2em;
+  padding-bottom: 4em;
+}
+@media (max-width: 890px) {
+  .skillebølge {
+    width: 15em;
+  }
 }
 
 .skillebølge1 {
@@ -120,6 +126,7 @@ h1 {
 }
 @media (max-width: 890px) {
   .skillebølge1 {
+    display: block;
     margin: 0 auto;
   }
 }
@@ -129,6 +136,7 @@ h1 {
 }
 @media (max-width: 890px) {
   .skillebølge2 {
+    display: block;
     margin: 0 auto;
   }
 }
@@ -139,6 +147,7 @@ h1 {
 }
 @media (max-width: 890px) {
   .skillebølge3 {
+    display: block;
     margin: 0 auto;
   }
 }
@@ -324,9 +333,6 @@ h1 {
   .forside-container {
     grid-template-columns: 1fr 1fr;
   }
-  nav ul li a {
-    font-size: 20px;
-  }
   .fa-bars {
     display: none;
   }
@@ -334,6 +340,12 @@ h1 {
     display: block;
   }
   header nav a {
+    font-size: 20px;
+  }
+  nav ul li {
+    margin-right: 6em;
+  }
+  nav ul li a {
     font-size: 20px;
   }
   .forside-tekst {
