@@ -368,15 +368,20 @@ h1 {
 
     }
 
-    nav li{
-        display:flex;
-        justify-items: center;
-        justify-content: space-between;
-        gap: 12em;
+    nav ul li a {
+        font-size: variabler.$text-medium;
     }
 
     .fa-bars {
         display: none;
+    }
+
+    header nav {
+        display: block;
+    }
+
+    header nav a {
+        font-size: variabler.$text-medium;
     }
 
     .forside-tekst{

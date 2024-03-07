@@ -324,14 +324,17 @@ h1 {
   .forside-container {
     grid-template-columns: 1fr 1fr;
   }
-  nav li {
-    display: flex;
-    justify-items: center;
-    justify-content: space-between;
-    gap: 12em;
+  nav ul li a {
+    font-size: 20px;
   }
   .fa-bars {
     display: none;
+  }
+  header nav {
+    display: block;
+  }
+  header nav a {
+    font-size: 20px;
   }
   .forside-tekst {
     display: grid;
