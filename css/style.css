@@ -11,6 +11,12 @@ body {
   margin: 8em;
   font-family: "Armata", sans-serif;
 }
+@media (max-width: 890px) {
+  body {
+    padding-top: 0.5em;
+    margin: 2em;
+  }
+}
 
 p {
   font-size: 18px;
@@ -65,8 +71,13 @@ iframe {
   display: block;
   margin: 0 auto;
 }
+@media (max-width: 890px) {
+  iframe {
+    height: 10em;
+    width: auto;
+  }
+}
 
-/*video slut*/
 h1 {
   font-size: 36px;
   color: #5868a2;
@@ -79,23 +90,33 @@ h1 {
 }
 
 .introtext {
+  width: 50%;
   display: block;
-  margin: 0 0;
-  gap: 10px;
+  margin: 0 auto;
+}
+@media (max-width: 890px) {
+  .introtext {
+    width: 80%;
+  }
+}
+
+.forsidetekst {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 10em;
+  font-size: 18px;
+}
+@media (max-width: 890px) {
+  .forsidetekst {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .pilknap {
   height: 0.8em;
   margin: 0.2em;
-}
-
-.forside-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  justify-content: space-between;
-  gap: 20px;
-  font-size: 18px;
 }
 
 /*skillebølger*/
@@ -111,7 +132,8 @@ h1 {
 }
 @media (max-width: 890px) {
   .skillebølge1 {
-    margin: 0 auto;
+    display: flex;
+    justify-items: center;
   }
 }
 
@@ -120,7 +142,8 @@ h1 {
 }
 @media (max-width: 890px) {
   .skillebølge2 {
-    margin: 0 auto;
+    display: flex;
+    justify-items: center;
   }
 }
 
@@ -135,14 +158,31 @@ h1 {
 }
 
 .casesbillede {
-  height: 4em;
+  height: 20em;
   width: auto;
+  margin-left: 5em;
+}
+@media (max-width: 890px) {
+  .casesbillede {
+    height: 10em;
+    width: auto;
+  }
 }
 
 .omosbillede {
-  height: 4em;
+  height: 20em;
   width: auto;
   margin-right: 5em;
+}
+@media (max-width: 890px) {
+  .omosbillede {
+    height: 10em;
+    width: auto;
+  }
+}
+
+.indextext {
+  width: 40%;
 }
 
 /*Cases styling*/
@@ -253,6 +293,12 @@ h1 {
 }
 
 /*Container / Sanne-ydelser*/
+.container {
+  display: flex;
+  justify-content: space-between; /* Justerer afstanden mellem kasserne */
+  gap: 40px;
+}
+
 .box {
   flex: 1; /* Giver hver boks lige plads */
   text-align: center; /* Centrerer indholdet */
@@ -282,46 +328,18 @@ h1 {
 }
 
 @media (max-width: 890px) {
-  .forside {
-    justify-content: center;
-  }
-}
-nav li {
-  display: none;
-}
-
-.forside-tekst {
-  display: flex;
-  flex-direction: column;
-}
-
-.video {
-  display: flex;
-  flex: content;
-  justify-content: center;
-}
-
-iframe {
-  display: block;
-  margin: 0 auto;
-}
-
-.containerfooter {
-  -moz-column-gap: 2em;
-       column-gap: 2em;
-  white-space: nowrap;
-  justify-content: center;
-}
-
-.footertext {
-  white-space: nowrap;
-}
-
-@media (min-width: 890px) {
   header {
     justify-content: center;
   }
   nav li {
+    display: none;
+  }
+}
+@media (min-width: 890px) {
+  header {
+    justify-content: center;
+  }
+  nav ul {
     display: flex;
     justify-items: center;
     justify-content: space-between;
@@ -329,9 +347,5 @@ iframe {
   }
   .fa-bars {
     display: none;
-  }
-  .forside-tekst {
-    display: flex;
-    flex-direction: column;
   }
 }/*# sourceMappingURL=style.css.map */

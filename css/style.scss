@@ -12,6 +12,12 @@ body {
     padding-top: 2.3em;
     margin: 8em;
     font-family: "Armata", sans-serif;
+
+@media (max-width:variabler.$tablet)  {
+    padding-top: 0.5em;
+    margin: 2em;
+    
+}    
 }
 
 p {
@@ -72,9 +78,12 @@ header {
 iframe {
     display: block;
     margin: 0 auto;
-}
 
-/*video slut*/
+    @media (max-width:variabler.$tablet) {
+        height: 10em;
+        width: auto;
+        }  
+}
 
 h1 {
     font-size: variabler.$text-large;
@@ -87,31 +96,33 @@ h1 {
     text-align: center;
 }
 
-
 .introtext {
+    width: 50%;
     display: block;
-    margin: 0 0;
-    gap: 10px;
+    margin: 0 auto;
+
+@media (max-width:variabler.$tablet) {
+    width: 80%;
+}
+}
+
+.forsidetekst {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 10em;
+    font-size: variabler.$text-small;
+
+    @media (max-width:variabler.$tablet) {
+        display: flex;
+        flex-direction: column;        
+    }
 }
 
 .pilknap {
     height: 0.8em;
     margin: 0.2em;
 }
-
-
-
-.forside-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    justify-content: space-between;
-    gap: 20px; // Tilføj en passende mellemrum mellem de to kolonner
-    font-size: variabler.$text-small;
-}
-
-
-
 
 /*skillebølger*/
 
@@ -124,42 +135,55 @@ h1 {
 .skillebølge1 {
     display: block;
     margin: 0 auto;
-    @media (max-width:variabler.$tablet){
-        margin: 0 auto;
-    }
+    @media (max-width:variabler.$tablet) {
+        display: flex;
+        justify-items: center;
+            }  
 }
 
 .skillebølge2 {
     margin-left: 5em;
-    @media (max-width:variabler.$tablet){
-        margin: 0 auto;
-    }
+    @media (max-width:variabler.$tablet) {
+        display: flex;
+        justify-items: center;
+            }  
 }
 
 .skillebølge3 {
     margin-left: 45em;
     margin-bottom: 5em;
 
-    @media (max-width:variabler.$tablet){
-        margin: 0 auto;
-    }
+@media (max-width:variabler.$tablet) {
+    margin: 0 auto
+        }  
 }
 
-
 .casesbillede {
-    height: 4em;
+    height: 20em;
     width: auto;
+    margin-left: 5em;
+
+    @media (max-width:variabler.$tablet) {
+    height: 10em;
+    width: auto;
+    }    
 }
 
 .omosbillede {
-    height: 4em;
+    height: 20em;
     width: auto;
     margin-right: 5em;
+    
+    @media (max-width:variabler.$tablet) {
+        height: 10em;
+        width: auto;
+        }  
+
 }
 
-
-
-
+.indextext {
+    width: 40%;
+}
 
 /*Cases styling*/
 
@@ -270,11 +294,13 @@ h1 {
     margin-top: 30px;
 }
 
-
 /*Container / Sanne-ydelser*/
 
-
-  
+.container {
+    display: flex;
+    justify-content: space-between; /* Justerer afstanden mellem kasserne */
+    gap: 40px;
+  }
   
   .box {
     flex: 1; /* Giver hver boks lige plads */
@@ -289,8 +315,8 @@ h1 {
   .box p {
     margin-top: 10px; /* Afstand mellem billede og tekst */
   }
-
   
+
 
 
 /*footer styling*/
@@ -308,57 +334,26 @@ h1 {
     height: 50px;
 }
 
-
 // Stilregler for mobil til desktop
 @media (max-width: variabler.$tablet) {
-    
-    .forside{
+    header{
         justify-content: center;
-    }
-
     }
     nav li{
         display: none;
-    
     }
     
-    .forside-tekst{
-        display: flex;
-        flex-direction: column;
-        
-    }
-
-    .video{
-        display: flex;
-        flex: content;
-        justify-content: center;
-        
-    }
-    iframe {
-        display: block;
-        margin: 0 auto;
-
-    }
-
-    .containerfooter{
-        column-gap: 2em;
-       white-space: nowrap;
-       justify-content: center;
-    }
-
-    .footertext{
-        white-space: nowrap;
-
-    }
     
+
+  }
+  
+
   
 @media (min-width: variabler.$tablet) {
     header{
         justify-content: center;
     }
-
-
-    nav li{
+    nav ul{
         display:flex;
         justify-items: center;
         justify-content: space-between;
@@ -367,16 +362,7 @@ h1 {
     .fa-bars{
         display:none;
     }
-
-    .forside-tekst{
-        display: flex;
-        flex-direction: column;
-        
-    }
-
-    }
-  
-  
-@media (min-width: variabler.$largeDesktop) {
-    // Stilregler for stor skærm
   }
+  
+
+
