@@ -138,18 +138,6 @@ h1 {
   }
 }
 
-.casesbillede {
-  display: block;
-  height: 10em;
-  width: 1fr;
-}
-
-.omosbillede {
-  display: flex;
-  height: 4em;
-  width: auto;
-}
-
 /*Cases styling*/
 .blagronoverskrift {
   display: flex;
@@ -295,9 +283,12 @@ nav li {
   display: none;
 }
 
-.forside-tekst {
-  display: flex;
-  flex-direction: column;
+.body {
+  justify-content: center;
+}
+
+.forside-container {
+  grid-template-columns: 1fr;
 }
 
 .video {
@@ -312,10 +303,7 @@ iframe {
 }
 
 .containerfooter {
-  -moz-column-gap: 2em;
-       column-gap: 2em;
   white-space: nowrap;
-  justify-content: center;
 }
 
 .footertext {
@@ -325,6 +313,9 @@ iframe {
 @media (min-width: 890px) {
   header {
     justify-content: center;
+  }
+  .forside-container {
+    grid-template-columns: 1fr 1fr;
   }
   nav li {
     display: flex;
