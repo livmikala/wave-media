@@ -89,6 +89,7 @@ h1 {
 .introtext {
     display: block;
     margin: 0 0;
+    gap: 10px;
 }
 
 .forsidetekst {
@@ -96,6 +97,13 @@ h1 {
     align-items: center;
     padding-top: 10em;
     font-size: variabler.$text-small;
+}
+
+.profil-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    
 }
 
 .pilknap {
@@ -276,6 +284,8 @@ h1 {
     margin-top: 10px; /* Afstand mellem billede og tekst */
   }
   
+  .profil-container[
+  ]
 
 
 
@@ -300,11 +310,7 @@ h1 {
 @media (max-width: variabler.$tablet) {
     .forside{
         justify-content: center;
-        
-
     }
-
-
 
     index.html header{
         justify-content: center;
@@ -315,6 +321,7 @@ h1 {
     
     }
     
+
     .video{
         display: flex;
         flex: content;
@@ -345,6 +352,12 @@ h1 {
     }
     .fa-bars{
         display:none;
+    }
+    .introtext img{
+        justify-content: center;
+     
+
+
     }
   }
   
