@@ -320,8 +320,9 @@ h1 {
     
     }
     
-    .forside-box{
+    .container{
         flex-direction: column;
+        flex-wrap: 1;
     }
 
     .video{
