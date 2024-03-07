@@ -17,7 +17,15 @@
 <!--Header kopieres til alle sider-->    
 <header>
     <header class="forside">
-        <i class="fa-solid fa-bars"></i>
+        <i class="fa-solid fa-bars" id="menuIcon">
+            <nav id="menu">
+            <ul>
+              <li><a href="index.html">FORSIDE</a></li>
+              <li><a href="cases.html">CASES</a></li>
+              <li><a href="om-os.html">OM OS</a></li>
+              <li><a href="ydelser.html">YDELSER</a></li>
+            </ul>
+          </nav></i>
     <a href="index.html">
         <img class="toplogo" src="img/logo1.png" alt="wave media logo">
     </a>
@@ -103,5 +111,15 @@
     
         </div>
     </footer>
+<script>
+    const menuIcon = document.getElementById('menuIcon');
+    const menu = document.getElementById('menu');
+    menuIcon.addEventListener('click', function() {
+    menu.classList.toggle('show');
+    });</script>
+    
+    
+    
+
 </body>
 </html>
