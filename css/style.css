@@ -104,7 +104,7 @@ h1 {
 }
 
 .column {
-  grid-column: auto; /* Lad browseren bestemme kolonneplaceringen */
+  grid-column: auto;
 }
 
 /*skillebølger*/
@@ -212,7 +212,7 @@ h1 {
 }
 
 .container-omos {
-  display: flex;
+  display: grid;
   align-items: flex-start;
   padding-top: 2em;
   margin: 10px 0;
