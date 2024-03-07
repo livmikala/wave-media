@@ -292,6 +292,9 @@ h1 {
   .forside {
     justify-content: center;
   }
+  .fa-bars {
+    margin-bottom: -2em;
+  }
 }
 nav li {
   display: none;
