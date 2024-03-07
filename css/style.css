@@ -303,6 +303,17 @@ iframe {
   margin: 0 auto;
 }
 
+.containerfooter {
+  -moz-column-gap: 2em;
+       column-gap: 2em;
+  white-space: nowrap;
+  justify-content: center;
+}
+
+.footertext {
+  white-space: nowrap;
+}
+
 @media (min-width: 890px) {
   header {
     justify-content: center;

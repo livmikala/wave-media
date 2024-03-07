@@ -336,6 +336,17 @@ h1 {
         margin: 0 auto;
 
     }
+
+    .containerfooter{
+        column-gap: 2em;
+       white-space: nowrap;
+       justify-content: center;
+    }
+
+    .footertext{
+        white-space: nowrap;
+
+    }
     
   
 @media (min-width: variabler.$tablet) {
