@@ -33,7 +33,7 @@ header {
           display: flex;
           list-style-type: none;
           justify-content: space-between;
-          gap: 10em;
+          gap: 5em;
 
             a {
             text-decoration: none;
@@ -41,7 +41,7 @@ header {
             font-family: "Armata", sans-serif;
             font-weight: 400;
             font-style: normal;
-            font-size: variabler.$text-medium;
+            font-size: variabler.$text-mini;
                 &:hover {
                 color: variabler.$lightblue;
                 }
@@ -50,10 +50,14 @@ header {
           }
         }        
 }
- 
-.topnav {
-    height: 100px;   
+
+header nav {
+    display: none;
 }
+
+nav.show-nav {
+    display: block;
+} 
  
 .toplogo {
     height: 11em;
@@ -317,6 +321,7 @@ h1 {
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        margin-bottom: 1em;
     }
 
     .forside {
@@ -370,7 +375,7 @@ h1 {
         gap: 12em;
     }
 
-    .fa-bars, nav ul li a {
+    .fa-bars {
         display: none;
     }
 
