@@ -292,37 +292,25 @@ h1 {
   .forside {
     justify-content: center;
   }
-  .fa-bars {
-    margin-bottom: -2em;
+  .forside-container {
+    grid-template-columns: 1fr;
+  }
+  .video {
+    display: flex;
+    flex: content;
+    justify-content: center;
+  }
+  iframe {
+    display: block;
+    margin: 0 auto;
+  }
+  .containerfooter {
+    white-space: nowrap;
+  }
+  .footertext {
+    white-space: nowrap;
   }
 }
-nav li {
-  display: none;
-}
-
-.forside-container {
-  grid-template-columns: 1fr;
-}
-
-.video {
-  display: flex;
-  flex: content;
-  justify-content: center;
-}
-
-iframe {
-  display: block;
-  margin: 0 auto;
-}
-
-.containerfooter {
-  white-space: nowrap;
-}
-
-.footertext {
-  white-space: nowrap;
-}
-
 @media (min-width: 890px) {
   header.forside {
     display: grid;
@@ -337,7 +325,7 @@ iframe {
     justify-content: space-between;
     gap: 12em;
   }
-  .fa-bars {
+  .fa-bars, nav ul li a {
     display: none;
   }
   .forside-tekst {

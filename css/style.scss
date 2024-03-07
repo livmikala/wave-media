@@ -310,8 +310,6 @@ h1 {
             padding-top: 1em;
             margin: 4em;
             font-family: "Armata", sans-serif;
-    
-
     }
     
     header {
@@ -325,15 +323,7 @@ h1 {
         justify-content: center;
     }
 
-    .fa-bars {
-        margin-bottom: -2em;
-    }
-
-    }
-    nav li {
-        display: none;
-    }
-
+  
     .forside-container {
         grid-template-columns: 1fr;
 
@@ -343,8 +333,8 @@ h1 {
         display: flex;
         flex: content;
         justify-content: center;
-        
     }
+
     iframe {
         display: block;
         margin: 0 auto;
@@ -358,6 +348,8 @@ h1 {
         white-space: nowrap;
 
     }
+
+}    
     
   
 @media (min-width: variabler.$tablet) {
@@ -375,10 +367,11 @@ h1 {
         display:flex;
         justify-items: center;
         justify-content: space-between;
-        gap:12em;
+        gap: 12em;
     }
-    .fa-bars{
-        display:none;
+
+    .fa-bars, nav ul li a {
+        display: none;
     }
 
     .forside-tekst{

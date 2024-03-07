@@ -17,19 +17,19 @@
 <!--Header kopieres til alle sider-->    
 <header>
     <header class="forside">
-        <i class="fa-solid fa-bars" id="menuIcon">
-            <nav id="menu">
+        <i class="fas fa-bars dropbtn"></i>
+            <nav class="fa-bars">
             <ul>
               <li><a href="index.html">FORSIDE</a></li>
               <li><a href="cases.html">CASES</a></li>
               <li><a href="om-os.html">OM OS</a></li>
               <li><a href="ydelser.html">YDELSER</a></li>
             </ul>
-          </nav></i>
+          </nav>
     <a href="index.html">
         <img class="toplogo" src="img/logo1.png" alt="wave media logo">
     </a>
-    </header>
+</header>
     <nav>
       <ul>
         <li><a href="index.html">FORSIDE</a></li>
@@ -111,12 +111,15 @@
     
         </div>
     </footer>
-<script>
-    const menuIcon = document.getElementById('menuIcon');
-    const menu = document.getElementById('menu');
-    menuIcon.addEventListener('click', function() {
-    menu.classList.toggle('show');
-    });</script>
+    <script>
+        function toggleNav() {
+            var navbar = document.querySelector('nav');
+            navbar.classList.toggle('show-nav');
+        }
+    
+        document.querySelector('.dropbtn').addEventListener('click', toggleNav);
+    </script>
+    
     
     
     
