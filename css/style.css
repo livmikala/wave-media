@@ -269,7 +269,7 @@ h1 {
 }
 
 .box img {
-  width: 100%; /* Billedet fylder bredden af boksen */
+  width: 20em; /* Billedet fylder bredden af boksen */
   height: auto; /* Bevarer billedets proportioner */
 }
 
