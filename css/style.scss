@@ -1,5 +1,5 @@
 @use 'variabler';
-@use 'mixin';
+@use 'mixins';
 
 * {
     box-sizing: border-box;
@@ -42,9 +42,7 @@ header {
             font-weight: 400;
             font-style: normal;
             font-size: variabler.$text-mini;
-                &:hover {
-                color: variabler.$lightblue;
-                }
+            @include mixins.hover-effect;
 
             }
           }
@@ -119,6 +117,11 @@ h1 {
 
 .column {
     grid-column: auto;
+}
+
+.omosbillede {
+    width: 20em;
+    height: auto;
 }
 
 

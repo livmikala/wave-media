@@ -42,7 +42,7 @@ header nav ul a {
   font-size: 15px;
 }
 header nav ul a:hover {
-  color: #30E2ED;
+  color: #30e2ed;
 }
 
 header nav {
@@ -106,6 +106,11 @@ h1 {
 
 .column {
   grid-column: auto;
+}
+
+.omosbillede {
+  width: 20em;
+  height: auto;
 }
 
 /*skillebølger*/
