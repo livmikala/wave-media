@@ -426,5 +426,11 @@ h1 {
         margin-top: 50px;
     
     }
+     
+    .container-ydelser {
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+    }
 
 }
